@@ -46,8 +46,6 @@
 			<artifactId>javafx-fxml</artifactId>
 			<version>16-ea+2</version>
 		</dependency>
-
-
 	</dependencies>
 
 	<build>
