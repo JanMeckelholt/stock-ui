@@ -46,6 +46,11 @@
 			<artifactId>javafx-fxml</artifactId>
 			<version>16-ea+2</version>
 		</dependency>
+		<dependency>
+			<groupId>de.kfru</groupId>
+			<artifactId>stock-client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
