@@ -18,6 +18,7 @@
 		<java.version>11</java.version>
 	</properties>
 
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,11 +47,59 @@
 			<artifactId>javafx-fxml</artifactId>
 			<version>16-ea+2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-controls -->
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>16-ea+2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-base -->
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-base</artifactId>
+			<version>16-ea+2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.guigarage/javafx-collection -->
+		<dependency>
+			<groupId>com.guigarage</groupId>
+			<artifactId>javafx-collection</artifactId>
+			<version>0.7</version>
+			<type>pom</type>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx -->
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx</artifactId>
+			<version>11</version>
+			<type>pom</type>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.eclipse.swt.gtk.linux/x86_64 -->
+		<dependency>
+			<groupId>org.eclipse.swt.gtk.linux</groupId>
+			<artifactId>x86_64</artifactId>
+			<version>3.3.0-v3346</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.eclipse.swt.gtk.linux/x86 -->
+		<dependency>
+			<groupId>org.eclipse.swt.gtk.linux</groupId>
+			<artifactId>x86</artifactId>
+			<version>3.3.0-v3346</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-archetype-fxml</artifactId>
+			<version>0.0.3</version>
+		</dependency>
+
 		<dependency>
 			<groupId>de.kfru</groupId>
 			<artifactId>stock-client</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+
 	</dependencies>
 
 	<build>
